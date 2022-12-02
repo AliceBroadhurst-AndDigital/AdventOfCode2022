@@ -1,19 +1,17 @@
 ﻿<Properties StartupConfiguration="{40577113-C64F-45C0-B7E5-2AA46E511FD5}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.AdventOfCode2022__Console PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.AdventOfCode2022__Tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="AdventOfCode2022_Console/Program.cs">
     <Files>
+      <File FileName="AdventOfCode2022/Day2/ElfCalories.txt" Line="2500" Column="4" IsPinned="True" />
       <File FileName="AdventOfCode2022_Tests/Day1/TestCalories.txt" />
       <File FileName="AdventOfCode2022_Tests/Day1/CalorieCounter_Tests.cs" />
       <File FileName="AdventOfCode2022/Day1/CalorieCounter.cs" />
-      <File FileName="AdventOfCode2022_Console/Program.cs" Line="7" Column="1" />
+      <File FileName="AdventOfCode2022_Console/Program.cs" Line="9" Column="37" />
       <File FileName="AdventOfCode2022/Day1/ElfCalories.txt" />
+      <File FileName="AdventOfCode2022/Day2/RockPaperScissorsScoreCalculator.cs" Line="33" Column="53" />
+      <File FileName="AdventOfCode2022_Tests/Day2/RockPaperScissorsScoreCalculator_Tests.cs" Line="33" Column="44" />
+      <File FileName="AdventOfCode2022_Tests/Day2/TestCalories.txt" Line="3" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,19 +19,44 @@
           <Node name="AdventOfCode2022" expanded="True">
             <Node name="AdventOfCode2022" expanded="True">
               <Node name="Day1" expanded="True" />
+              <Node name="Day2" expanded="True">
+                <Node name="RPSMatches.txt" selected="True" />
+              </Node>
             </Node>
             <Node name="AdventOfCode2022_Console" expanded="True" />
             <Node name="AdventOfCode2022_Tests" expanded="True">
               <Node name="Day1" expanded="True" />
+              <Node name="Day2" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>GetWinScore(match[0], match[1])</Value>
+          <Value>match[0]</Value>
+          <Value>match[1]</Value>
+          <Value>result</Value>
+        </State>
+      </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="AdventOfCode2022" expanded="True" selected="True" />
+          <Node name="AdventOfCode2022" expanded="True">
+            <Node name="AdventOfCode2022_Tests" expanded="True">
+              <Node name="AdventOfCode2022_Tests" expanded="True">
+                <Node name="RockPaperScissorsScoreCalculator_Tests" expanded="True" />
+                <Node name="Tests" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.AdventOfCode2022__Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
